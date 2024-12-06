@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Agregado para aplicar el box-sizing a todos los elementos */
+}
+.main-content {
+  margin-left: 80px; /* Ajusta esto según el ancho del sidebar */
+  padding: 20px; /* Espaciado interno */
+  height: 100vh; /* Altura completa para que no se corte el contenido */
+  overflow-y: auto; /* Agregar scroll si es necesario */
+}
