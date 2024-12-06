@@ -131,7 +131,7 @@ function Inventario() {
     {
       title: "Valor Total del Inventario",
       subtitle: "Valor estimado de todos los productos",
-      link: "#",
+      link: "/reportes",
       icon: <FaMoneyBillWave className="h-12 w-12 text-yellow-500 mb-2" />,
       value: `S/.${valorTotalInventario.toFixed(2)}`,
       bgColor: "bg-yellow-50",

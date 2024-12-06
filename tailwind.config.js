@@ -1,3 +1,5 @@
+import tailwindScrollbar from 'tailwind-scrollbar';
+
 /** @type {import('tailwindcss').Config} */
 export default {
   content: [
@@ -11,15 +13,15 @@ export default {
         serif: ['Lexend', 'serif'],
       },
       width: {
-        '85': '340px', // Tamaño personalizado
+        '85': '340px', 
       },
       colors: {
         'sidebar-active': '#181e27',
-        // Agrega más colores si es necesario
+  
       },
     },
   },
   plugins: [
-    require('tailwind-scrollbar'), // Asegúrate de incluir el plugin
+    tailwindScrollbar, 
   ],
 }

@@ -89,7 +89,6 @@ const CrearFactura = () => {
         })),
       };
   
-      console.log("Datos enviados a la API:", factura); // Verifica el objeto enviado
   
       await axios.post("https://alexsandrovs.pythonanywhere.com/api/v1/facturas/", factura);
       navigate("/facturas");
@@ -134,7 +133,6 @@ const CrearFactura = () => {
                   } else {
                     setPersona(""); // Restaura a un estado válido
                   }
-                  console.log("Persona seleccionada:", selectedValue); // Verifica el valor
                 }}
                 className="w-full px-4 py-2 border rounded-lg"
                 required
